@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+    /* logo  */
+.container-fluid img {
+    vertical-align: middle;
+    width: 15vh;
+}
+
+    /* nav button  */
+#btn1 {
+    background-color: #e3f2fd;
+}
+
+.btn:hover {
+    background-color: #49799b;
+}
+
+ /* carousel */
+.carousel-inner{
+    width: 100%;
+    height: 600px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #cccfe1;
+    border: 0;
+}
+
+.carousel-inner img{
+    height: 550px;
+}
+
+ /* CARD  */
+
+
+ 
+ .c1{
+     display: flex;
+     /* border: 2px solid black; */
+     width: 100%;
+     margin: 2px;
+     /* margin: .2rem; */
+     padding: 20px;
+     /* padding: 2rem; */
+     align-items: center;
+     justify-content: center;
+     height: 350px;
+     margin-bottom: 50px;
+ }
+
+ .card{
+     margin: 10px;
+     /* height: 50px; */
+ }
+
+ .btn{
+     background-color: #49799b;
+ }
+
+    /* NEWS AND EVENTS  */
+.newsandevents h2{
+    text-align: center;
+    padding: 10px;
+    color: chocolate;
+    font-family: 'Goblin One', cursive;
+    
+}
+
+.newsandevents a{
+    font-family: 'Girassol', cursive;
+    color: black;
+    
+}
+
+.newsandevents{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    margin: 25px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+
+/* SOA INFRASTRUCTURE STARTS*/
+
+#h3{
+    text-align: center;
+    /* font-family: 'Goblin One', cursive; */
+    font-family: 'Andada Pro', serif;
+    text-decoration: underline;
+    opacity: .8;
+}
+
+ .image{
+    /* border: 2px solid black; */
+    width: 60%;
+    margin-left: 20px;
+}
+
+.image img{
+    width: 200px;
+    height: 100px;
+    margin: 10px;  
+}
+
+
+.text{
+    /* border: 2px solid black; */
+    width: 60%;
+    margin-left: 20px;
+}
+
+.text li{
+    text-align: justify;
+    font-size: 25px;
+    list-style: square;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Andada Pro', serif;
+}
+/* SOA INFRASTRUCTURE ENDS */
+
+ /* FOOTER STARTS  */
+  .footer{
+      font-family: 'poppins', sans-serif;
+      box-sizing: border-box;
+  } 
+
+  footer{
+      width: 100%;
+      position: absolute;
+      bottom: -34S50px;
+      /* bottom: 0px; */
+      background: linear-gradient(to right, #00093c, #2d0b00);
+      color: #fff;
+      padding: 100px 0 30px;
+      border-top-left-radius: 125px;
+      font-size: 13px;
+      line-height: 20px;
+  }
+
+  .row{
+      width: 85%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+  }
+
+  .col{
+      flex-basis: 25%;
+      padding: 10px;
+  }
+
+  .col:nth-child(2), .col:nth-child(3){
+      flex-basis: 15%;
+  }
+
+  .logofooter{
+        width: 80px;
+        margin-bottom: 30px;
+  }
+
+  .col h3{
+      width: fit-content;
+      margin-bottom: 40px;
+      position: relative;
+  }
+
+  .email-id{
+    width: fit-content;
+    border-bottom: 1 px solid #ccc;
+    margin: 20px 0;
+  }
+
+  ul li{
+      list-style: none;
+      margin-bottom: 12px;
+  }
+
+  ul li a{
+      text-decoration: none;
+      color: #fff;
+  }
+
+  form{
+      padding-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 50px;
+  }
+
+  form.far{
+        font-size: 18px;
+        margin-right: 10px;
+  }
+
+  form input{
+      width: 100%;
+      background: transparent;
+      color: #ccc;
+      border: 0;
+      outline: none;
+  }
+
+  form button{
+      background: transparent;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+  }
+
+  form button .fas{
+      font-size: 16px;
+      color: #ccc;
+  }
+
+  .social-icons .fab{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color: #000;
+        background: #fff;
+        margin-right: 15px;
+        cursor: pointer;
+  }
+
+  hr{
+      width: 90%;
+      border: 0;
+      border-bottom: 1px solid #ccc;
+      margin: 20px auto;
+  }
+
+  .copyright{
+        text-align: center;
+  }
+
+  #text{
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+}
+ /* FOOTER ENDS  */
+
+@media (max-width: 600px){
+        .maincontainer{
+            display: block;
+            width: 100%;
+        }
+
+        .card{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            /* width: 100%; */
+        }
+
+        .newsandevents{
+            width: 93%;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .text{
+            width: 100%;
+        }
+
+        .text li{
+        width: 100%;
+        margin-left: -45px;
+        /* display:block; */
+        line-height: 30px;
+        }
+
+        .infra{
+            width: 100%;
+        }
+
+        .image img{
+            width: 100%;
+            margin-left: 50px;
+            /* box-sizing: border-box; */
+        }
+
+        html{
+            box-sizing: border-box;
+        }
+    
+        footer{
+            bottom: unset;
+        }
+        .col{
+            flex-basis: 100%;
+            
+        }
+      
+        .col:nth-child(2), .col:nth-child(3){
+            flex-basis: 100%;
+        }
+        .marquee {
+            width: 100%;
+    }
+    #text{
+        width: 100%;
+    }
+}
